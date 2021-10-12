@@ -9,31 +9,38 @@
       "rich-text#email-text",
       "rich-text#phone-text",
       "rich-text#login-text",
-      "rich-text#wishlist-text"
+      "rich-text#wishlist-text",
+      "rich-text#cart-text"
     ]
   },
   "rich-text#email-text": {
     "props": {
       "blockClass": ["text__top-bar", "email__top-bar"],
-      "text": "![email](https://google.com/gmail/14x14) loremipslum@gmail.com"
+      "text": "![email](assets/imgs/top-bar/email.png) loremipslum@gmail.com"
     }
   },
   "rich-text#phone-text": {
     "props": {
       "blockClass": ["text__top-bar", "phone__top-bar"],
-      "text": "![phone](https://google.com/gmail/14x14) +55 (14) 0000-0000"
+      "text": "![phone](assets/imgs/top-bar/phone.png) +55 (14) 0000-0000"
     }
   },
   "rich-text#login-text": {
     "props": {
       "blockClass": ["text__top-bar", "login__top-bar"],
-      "text": " login ![login](https://google.com/gmail/14x14)"
+      "text": " login ![login](assets/imgs/top-bar/login.png)"
     }
   },
   "rich-text#wishlist-text": {
     "props": {
       "blockClass": ["text__top-bar", "wishlist__top-bar"],
-      "text": " wishlist ![login](https://google.com/gmail/14x14)"
+      "text": " wishlist ![wishlist](assets/imgs/top-bar/wishlist.png)"
+    }
+  },
+  "rich-text#cart-text": {
+    "props": {
+      "blockClass": ["text__top-bar", "cart__top-bar"],
+      "text": "![minicart](assets/imgs/top-bar/minicart.png)"
     }
   }
 }
