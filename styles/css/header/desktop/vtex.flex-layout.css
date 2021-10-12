@@ -1,0 +1,12 @@
+.flexRow--wrapper__top-bar {
+  background-color: #7e33e0;
+  height: 44px;
+}
+
+.flexRowContent--wrapper__top-bar {
+  max-width: 1214px;
+  margin: 0 auto;
+}
+.flexCol--wrapper__col {
+  flex-direction: row;
+}

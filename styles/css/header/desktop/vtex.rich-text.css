@@ -1,0 +1,18 @@
+.paragraph--text__top-bar {
+  font-size: 1rem;
+  color: #f1f1f1;
+}
+.wrapper--email__top-bar,
+.wrapper--text-top-bar {
+  margin-right: 30px;
+}
+
+.wrapper--text-top-bar {
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+.wrapper--cart__top-bar,
+.wrapper--text-top-bar {
+  margin: 0;
+}
