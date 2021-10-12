@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#top-bar": {
+    "props": {
+      "blockClass": "wrapper__top-bar"
+      // semelhante a isto:
+      // <div class="wrapper__top-bar"></div>
+    },
+    "children": [
+      "rich-text#email-text",
+      "rich-text#phone-text",
+      "rich-text#login-text",
+      "rich-text#wishlist-text"
+    ]
+  },
+  "rich-text#email-text": {
+    "props": {
+      "blockClass": ["text__top-bar", "email__top-bar"],
+      "text": "![email](https://google.com/gmail/14x14) loremipslum@gmail.com"
+    }
+  },
+  "rich-text#phone-text": {
+    "props": {
+      "blockClass": ["text__top-bar", "phone__top-bar"],
+      "text": "![phone](https://google.com/gmail/14x14) +55 (14) 0000-0000"
+    }
+  },
+  "rich-text#login-text": {
+    "props": {
+      "blockClass": ["text__top-bar", "login__top-bar"],
+      "text": " login ![login](https://google.com/gmail/14x14)"
+    }
+  },
+  "rich-text#wishlist-text": {
+    "props": {
+      "blockClass": ["text__top-bar", "wishlist__top-bar"],
+      "text": " wishlist ![login](https://google.com/gmail/14x14)"
+    }
+  }
+}
